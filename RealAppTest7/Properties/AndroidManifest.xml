@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--  This is a default file that specifies important information about the app such as minimum and target SDK versions and application settings -->
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  package="RealAppTest7.RealAppTest7"
+  android:versionCode="1"
+  android:versionName="1.0"
+  android:installLocation="auto">
+	<!-- The minimum and target SDK version required to run the app -->
+  <uses-sdk
+    android:minSdkVersion="19"
+    android:targetSdkVersion="28" />
+	<!-- Added android:theme which is set to AppTheme defined in styles.xml -->
+	<application
+    android:allowBackup="true"
+    android:label="@string/app_name"
+    android:theme="@style/AppTheme" />
+</manifest>

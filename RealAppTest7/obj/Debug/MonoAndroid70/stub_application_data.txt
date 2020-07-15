@@ -1,0 +1,2 @@
+android.app.Application
+RealAppTest7.RealAppTest7

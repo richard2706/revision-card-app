@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- This file specifies the elements in the style, AppTheme, used in this app -->
+<resources>
+  <style name="AppTheme" parent="Theme.AppCompat">
+    <!-- The title of the app will be hidden within it -->
+    <item name="windowNoTitle">true</item>
+    <!-- The action bar will be hidden to allow a toolbar in its place -->
+    <item name="windowActionBar">false</item>
+    <!-- The primary colour used in the app, including the toolbar -->
+    <item name="colorPrimary">#4CAF50</item>
+  </style>
+</resources>

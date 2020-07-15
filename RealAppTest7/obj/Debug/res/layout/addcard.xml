@@ -1,0 +1,111 @@
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"><!-- Create the toolbar that uses the attributes set in AppTheme (in styles.xml) --><android.support.v7.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize" android:background="?attr/colorPrimary" android:elevation="4dp" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" /><!-- Textbox for the question --><EditText android:id="@+id/cardQuestionEditText" android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Question" /><!-- CUT THIS - START --><!--<RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/questionAttachmentButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/questionAttachmentButton2"
+            android:text="" />
+        <Button
+            android:id="@+id/questionAttachmentButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/questionAttachmentButton3"
+            android:text="" />
+        <Button
+            android:id="@+id/questionAttachmentButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/addQuestionAttachmentButton"
+            android:text="" />
+        <Button
+            android:id="@+id/addQuestionAttachmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ attachment" />
+    </RelativeLayout>--><!-- Relative layout that has buttons for the attachments --><!--
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/questionAttachmentButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <Button
+            android:id="@+id/questionAttachmentButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <Button
+            android:id="@+id/questionAttachmentButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <Button
+            android:id="@+id/addQuestionAttachmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ attachment" />
+    </RelativeLayout>
+  
+   END --><!-- Textbox for the answer --><EditText android:id="@+id/cardAnswerEditText" android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Answer" /><!-- CUT THIS - START --><!--<RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/answerAttachmentButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/answerAttachmentButton2"
+            android:text="" />
+        <Button
+            android:id="@+id/answerAttachmentButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/answerAttachmentButton3"
+            android:text="" />
+        <Button
+            android:id="@+id/answerAttachmentButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/addAnswerAttachmentButton"
+            android:text="" />
+        <Button
+            android:id="@+id/addAnswerAttachmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ attachment" />
+    </RelativeLayout>--><!--
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/answerAttachmentButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <Button
+            android:id="@+id/answerAttachmentButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <Button
+            android:id="@+id/answerAttachmentButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <Button
+            android:id="@+id/addAnswerAttachmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ attachment" />
+    </RelativeLayout>
+
+    END --></LinearLayout>

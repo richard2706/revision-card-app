@@ -1,0 +1,15 @@
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><!-- Create the toolbar that uses the attributes set in AppTheme (in styles.xml) --><android.support.v7.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize" android:background="?attr/colorPrimary" android:elevation="4dp" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" /><!--<RelativeLayout
+      android:id="@+id/toolbarRelativeLayout"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+      <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+      <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/cancel"
+        android:background="?android:attr/colorPrimary"/>
+    </RelativeLayout>--><!--</android.support.v7.widget.Toolbar>--><!-- Textbox that is only visible in search mode that will filter the list of questions --><EditText android:id="@+id/searchEditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Type here to search" /><!-- If there are no cards in the deck, this textview will promt the user to create a new card --><TextView android:id="@+id/addCardPromptTextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:gravity="center" android:text="Click + to add a card" android:textSize="18dp" android:visibility="gone" /><!-- This listview will take up the maximum amount of space and display all the cards in the seleted deck --><ListView android:id="@+id/cardListView" android:layout_width="match_parent" android:layout_height="match_parent" /></LinearLayout>

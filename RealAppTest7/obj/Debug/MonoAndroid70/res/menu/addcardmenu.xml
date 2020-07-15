@@ -1,0 +1,5 @@
+<!-- These schemas are needed to add items to the menu in the toolbar --><menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><!-- This file lists all the items in the toolbar
+        - icons are stored in the drawable folders for different screen sizes. The size is determined automatically
+        - showAsAction will specify if the item should be shown in the toolbar or overflow menu
+        - title will display the specified text instead of the icon when in the overflow menu
+  --><!-- Button to go to add card to database and return to deck details screen --><item android:id="@+id/addCard" android:icon="@drawable/done" app:showAsAction="ifRoom" android:title="Add" /><!-- Button to cancel adding  --><item android:id="@+id/cancel" android:icon="@drawable/cancel" app:showAsAction="ifRoom" android:title="Cancel" /></menu>

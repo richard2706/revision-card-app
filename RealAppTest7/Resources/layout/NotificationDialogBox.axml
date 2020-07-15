@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This layout file defines the contents of the dilaog box for notifications options -->
+<!-- This LinearLayout contains everything in this layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<!-- CheckBox used to enable or disable notifications -->
+	<CheckBox
+		android:id="@+id/notificationsEnabledCheckBox"
+		android:text="Enable notifications"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="25sp"
+		android:layout_marginTop="10sp"
+		android:layout_marginRight="25sp"/>
+	<!-- TExtview that describes the purpose of the NumberPicker below -->
+	<TextView
+		android:id="@+id/descriptionTextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Show a reminder if this deck has not been studied this number of days:"
+		android:layout_marginLeft="25sp"
+		android:layout_marginTop="10sp"
+		android:layout_marginRight="25sp"/>
+	<!-- NumberPicker used to specify the number of days before the user recieves a notification -->
+	<NumberPicker
+		android:id="@+id/numberOfDaysNumberPicker"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="25sp"
+		android:layout_marginTop="10sp"
+		android:layout_marginRight="25sp"/>
+</LinearLayout>

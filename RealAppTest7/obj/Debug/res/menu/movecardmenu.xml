@@ -1,0 +1,4 @@
+<!-- These schemas are needed to add items to the menu in the toolbar --><menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><!-- This file lists all the items in the toolbar
+        - icons are stored in the drawable folders for different screen sizes. The size is determined automatically
+        - showAsAction will specify if the item should be shown in the toolbar or overflow menu
+  --><item android:id="@+id/cancel" android:icon="@drawable/cancel" app:showAsAction="ifRoom" android:title="Cancel" /></menu>
