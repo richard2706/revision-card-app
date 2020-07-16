@@ -27,9 +27,10 @@ Study a random selection of cards from a deck
 
 <img src="https://lo4a0w.am.files.1drv.com/y4mbFZaMheiZJd78TndaIA_sTh6gD6reb9g1ZKzIabaNl6gT1EdF-8mPe6OjjegmR5tEyDNgZA36ssY_vELTYaVpuzMMhMEOJ-caExnbgbsHgAJkElghLqbcU7vfS7eR-1yB5zGqwIoDUZSn50Ez2jjo5VBsFKlBt24PFh9VZbKZlIryRQL90WtZqC6-9oow6Hztt0rknIrMCpz4aA9L4XgCQ?width=1080&height=1920&cropmode=none" alt="Screenshot showing study screen" width="200">
 
-Notifications to remind you to study a deck
+Customisable notifications to remind you to study a deck
 
 <img src="https://39tfmg.bl.files.1drv.com/y4md6R0Bk_AqtO9CwkI6mD_yyAmuZmB8EEs6oriMAlWECzCGxx4A7LmopYD536DkJJYaT6ikVQJ8KzoATRkwPe-f94DuH15ZQ6Cr5o9QZN1g2aOPbyUPfWDpgPMgQVUVCqclVi5wuxIwZAYxUDkJG7WEr1nPMcO_UNThemk8h1px44w9R9GcNx-0xxXtYY9erDfLGAdsuena9yER2oHU_Rqsg?width=1080&height=1920&cropmode=none" alt="Screenshot showing notifications" width="200">
+<img src="https://pktljq.am.files.1drv.com/y4mYMIAXdNvSpgBEwc1Ss2Ae90BJTOfuOk3AaRTo6pcO2wWW-1S496DB_TB3lkzQnAZU75HiBDb5dzgPtr45SWs_w9oKCR-U0f6IZZlUwm4PUbXwRUv-rxyioASbs4cniUWPrLH0dk97gOXP9aHKq85A_X0QoKu45QKathlNXqBA-uFmHwclLw5VYzw3syImpHDeiV1pgrIRzvkcTIUiPcY9Q?width=1080&height=1920&cropmode=none" alt="Screenshot showing notification options" width="200">
 
 Print the cards in a deck
 
