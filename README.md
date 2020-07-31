@@ -6,7 +6,7 @@ User can make Q and A revision cards and the app can test them on a random selec
 
    [Download APK file](https://1drv.ms/u/s!AkwCdeKs07DpjeY9zMTryYN-V2Tomw?e=Ztuys5 "Download from OneDrive")
 
-2. Open the file
+2. Open the file on your Android device
 
 3. Click install and follow the instructions
 
