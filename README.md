@@ -18,12 +18,10 @@ User can make Q and A revision cards and the app can test them on a random selec
 Organise your revision cards into decks
 
 <img src="readme_images/deck_list.png" alt="Screenshot showing list of decks" width="200"/>
-<br>
 
 Add cards with questions and answers
 
 <img src="readme_images/card_list.png" alt="Screenshot showing list of cards" width="200">
-<br>
 
 Study a random selection of cards from a deck
 
